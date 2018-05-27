@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/default_margin">
+
+    <com.khalil.itunescharts.components.CircleImageView
+        android:id="@+id/imgArtwork"
+        android:layout_width="@dimen/artwork_image_size"
+        android:layout_height="@dimen/artwork_image_size"
+        tools:src="@drawable/test"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/PrimaryTitleTextStyle"
+        android:layout_toRightOf="@id/imgArtwork"
+        android:layout_toEndOf="@id/imgArtwork"
+        tools:text="ABC Title Song"/>
+
+    <TextView
+        android:id="@+id/txtArtistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SecondaryTitleTextStyle"
+        android:layout_below="@id/txtName"
+        android:layout_alignLeft="@id/txtName"
+        android:layout_alignStart="@id/txtName"
+        tools:text="Singer"/>
+
+</RelativeLayout>

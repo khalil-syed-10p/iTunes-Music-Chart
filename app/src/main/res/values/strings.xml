@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">iTunes Charts</string>
+    <string name="text_please_wait">Please Wait…</string>
+    <string name="api_url">https://rss.itunes.apple.com</string>
+    <string name="error_unauthorized">You are not authorised to access the Podcast Charts API</string>
+    <string name="error_internet_connection">It seems there is low or no internet connectivity. Please try later.</string>
+    <string name="text_no_data">No Data Available</string>
+    <string name="text_btn_refresh">Refresh</string>
+</resources>

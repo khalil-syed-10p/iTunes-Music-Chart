@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="TextStyle">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="LoaderTextStyle" parent="TitleTextStyle">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="PrimaryTitleTextStyle" parent="TitleTextStyle">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="SecondaryTitleTextStyle" parent="TitleTextStyle">
+        <item name="android:textColor">@color/textColorSecondary</item>
+    </style>
+
+    <style name="PrimaryButtonStyle">
+        <item name="android:textColor">@color/fg_color_btn_refresh</item>
+        <item name="android:background">@drawable/bg_btn_refresh</item>
+    </style>
+
+</resources>
